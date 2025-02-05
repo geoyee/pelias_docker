@@ -35,4 +35,4 @@ You can now make queries against your new Pelias build:
 
 - [ ] Test for correctness and improve documentation.
 - [X] Refinement of "disputed areas" not covered by China in whosonfirst.
-- [ ] Add the correct custom CSV data.
+- [ ] Add the correct custom CSV data ([https://opendata.pku.edu.cn/dataset.xhtml?persistentId=doi:10.18170/DVN/WSXCNM](https://opendata.pku.edu.cn/dataset.xhtml?persistentId=doi:10.18170/DVN/WSXCNM)).
