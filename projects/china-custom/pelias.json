@@ -45,13 +45,13 @@
     "openstreetmap": {
       "download": [
         { "sourceURL": "http://download.geofabrik.de/asia/china-latest.osm.pbf" },
-	{ "sourceURL": "http://download.geofabrik.de/asia/taiwan-latest.osm.pbf" }
+        { "sourceURL": "http://download.geofabrik.de/asia/taiwan-latest.osm.pbf" }
       ],
       "leveldbpath": "/tmp",
       "datapath": "/data/openstreetmap",
       "import": [
-	{ "filename": "china-latest.osm.pbf" },
-	{ "filename" :"taiwan-latest.osm.pbf" }
+        { "filename": "china-latest.osm.pbf" },
+        { "filename": "taiwan-latest.osm.pbf" }
       ]
     },
     "polyline": {
@@ -64,25 +64,25 @@
         "cn/42/wuhan.csv",
         "tw/cha/regionwide.csv",
         "tw/cyi/regionwide.csv",
-	"tw/hsq/regionwide.csv",
-	"tw/hsz/regionwide.csv",
-	"tw/hua/regionwide.csv",
-	"tw/ila/datong.csv",
-	"tw/ila/dongshan.csv",
-	"tw/ila/jiaoxi.csv",
-	"tw/ila/luodong.csv",
-	"tw/ila/nan-ao.csv",
-	"tw/ila/sanxing.csv",
-	"tw/ila/suao.csv",
-	"tw/ila/toucheng.csv",
-	"tw/ila/wujie.csv",
-	"tw/ila/yilan.csv",
-	"tw/ila/yuanshan.csv",
-	"tw/ila/zhuangwei.csv",
-	"tw/kee/regionwide.csv",
+        "tw/hsq/regionwide.csv",
+        "tw/hsz/regionwide.csv",
+        "tw/hua/regionwide.csv",
+        "tw/ila/datong.csv",
+        "tw/ila/dongshan.csv",
+        "tw/ila/jiaoxi.csv",
+        "tw/ila/luodong.csv",
+        "tw/ila/nan-ao.csv",
+        "tw/ila/sanxing.csv",
+        "tw/ila/suao.csv",
+        "tw/ila/toucheng.csv",
+        "tw/ila/wujie.csv",
+        "tw/ila/yilan.csv",
+        "tw/ila/yuanshan.csv",
+        "tw/ila/zhuangwei.csv",
+        "tw/kee/regionwide.csv",
         "tw/khh/regionwide.csv",
         "tw/kin/regionwide.csv",
-	"tw/mia/regionwide-en.csv",
+        "tw/mia/regionwide-en.csv",
         "tw/mia/regionwide-zh.csv",
         "tw/nwt/regionwide.csv",
         "tw/pen/regionwide.csv",
@@ -91,7 +91,7 @@
         "tw/tnn/regionwide.csv",
         "tw/tpe/regionwide.csv",
         "tw/txg/regionwide.csv",
-	"tw/yun/regionwide.csv"
+        "tw/yun/regionwide.csv"
       ]
     },
     "whosonfirst": {
