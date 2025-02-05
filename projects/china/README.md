@@ -34,5 +34,5 @@ You can now make queries against your new Pelias build:
 # TODO
 
 - [ ] Test for correctness and improve documentation.
-- [ ] Refinement of "disputed areas" not covered by China in whosonfirst.
+- [X] Refinement of "disputed areas" not covered by China in whosonfirst.
 - [ ] Add the correct custom CSV data.
