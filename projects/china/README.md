@@ -30,3 +30,9 @@ pelias compose up
 You can now make queries against your new Pelias build:
 
 <http://localhost:4000/v1/search?text=Chengdu>
+
+# TODO
+
+- [ ] Test for correctness and improve documentation.
+- [ ] Refinement of "disputed areas" not covered by China in whosonfirst.
+- [ ] Add the correct custom CSV data.
