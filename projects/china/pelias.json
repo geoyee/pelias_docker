@@ -36,7 +36,10 @@
     },
     "csv": {
       "datapath": "/data/csv",
-      "files": []
+      "files": [],
+      "download": [
+        "https://raw.githubusercontent.com/pelias/csv-importer/master/data/example.csv"
+      ]
     },
     "geonames": {
       "datapath": "/data/geonames",
