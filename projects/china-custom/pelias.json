@@ -1,0 +1,104 @@
+{
+  "logger": {
+    "level": "debug",
+    "timestamp": true
+  },
+  "esclient": {
+    "apiVersion": "7.5",
+    "hosts": [
+      { "host": "elasticsearch" }
+    ]
+  },
+  "elasticsearch": {
+    "settings": {
+      "index": {
+        "refresh_interval": "10s",
+        "number_of_replicas": "0",
+        "number_of_shards": "1"
+      }
+    }
+  },
+  "api": {
+    "services": {
+      "pip": { "url": "http://pip:4200" },
+      "libpostal": { "url": "http://libpostal:4400" },
+      "placeholder": { "url": "http://placeholder:4100" },
+      "interpolation": { "url": "http://interpolation:4300" }
+    },
+    "defaultParameters": {
+      "focus.point.lat": 34.540833,
+      "focus.point.lon": 108.923611
+    }
+  },
+  "imports": {
+    "adminLookup": {
+      "enabled": true
+    },
+    "csv": {
+      "datapath": "/data/csv",
+      "files": []
+    },
+    "geonames": {
+      "datapath": "/data/geonames",
+      "countryCode": [ "CN", "HK", "MO", "TW" ]
+    },
+    "openstreetmap": {
+      "download": [
+        { "sourceURL": "http://download.geofabrik.de/asia/china-latest.osm.pbf" },
+	{ "sourceURL": "http://download.geofabrik.de/asia/taiwan-latest.osm.pbf" }
+      ],
+      "leveldbpath": "/tmp",
+      "datapath": "/data/openstreetmap",
+      "import": [
+	{ "filename": "china-latest.osm.pbf" },
+	{ "filename" :"taiwan-latest.osm.pbf" }
+      ]
+    },
+    "polyline": {
+      "datapath": "/data/polylines",
+      "files": [ "extract.0sv" ]
+    },
+    "openaddresses": {
+      "datapath": "/data/openaddresses",
+      "files": [
+        "cn/42/wuhan.csv",
+        "tw/cha/regionwide.csv",
+        "tw/cyi/regionwide.csv",
+	"tw/hsq/regionwide.csv",
+	"tw/hsz/regionwide.csv",
+	"tw/hua/regionwide.csv",
+	"tw/ila/datong.csv",
+	"tw/ila/dongshan.csv",
+	"tw/ila/jiaoxi.csv",
+	"tw/ila/luodong.csv",
+	"tw/ila/nan-ao.csv",
+	"tw/ila/sanxing.csv",
+	"tw/ila/suao.csv",
+	"tw/ila/toucheng.csv",
+	"tw/ila/wujie.csv",
+	"tw/ila/yilan.csv",
+	"tw/ila/yuanshan.csv",
+	"tw/ila/zhuangwei.csv",
+	"tw/kee/regionwide.csv",
+        "tw/khh/regionwide.csv",
+        "tw/kin/regionwide.csv",
+	"tw/mia/regionwide-en.csv",
+        "tw/mia/regionwide-zh.csv",
+        "tw/nwt/regionwide.csv",
+        "tw/pen/regionwide.csv",
+        "tw/pif/regionwide.csv",
+        "tw/tao/regionwide.csv",
+        "tw/tnn/regionwide.csv",
+        "tw/tpe/regionwide.csv",
+        "tw/txg/regionwide.csv",
+	"tw/yun/regionwide.csv"
+      ]
+    },
+    "whosonfirst": {
+      "datapath": "/data/whosonfirst",
+      "importPostalcodes": true,
+      "countryCode": [ "CN", "HK", "MO", "TW" ],
+      "importPlace": [ "85632695", "85632483", "85632161", "85632403" ]
+    }
+  }
+}
