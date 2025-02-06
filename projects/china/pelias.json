@@ -14,20 +14,16 @@
       "index": {
         "refresh_interval": "10s",
         "number_of_replicas": "0",
-        "number_of_shards": "4"
+        "number_of_shards": "2"
       }
     }
   },
   "api": {
     "services": {
-      "pip": { "url": "http://pip:4200" },
-      "libpostal": { "url": "http://libpostal:4400" },
       "placeholder": { "url": "http://placeholder:4100" },
-      "interpolation": { "url": "http://interpolation:4300" }
-    },
-    "defaultParameters": {
-      "focus.point.lat": 34.540833,
-      "focus.point.lon": 108.923611
+      "pip": { "url": "http://pip:4200" },
+      "interpolation": { "url": "http://interpolation:4300" },
+      "libpostal": { "url": "http://libpostal:4400" }
     }
   },
   "imports": {
@@ -36,10 +32,7 @@
     },
     "csv": {
       "datapath": "/data/csv",
-      "files": [],
-      "download": [
-        "https://raw.githubusercontent.com/pelias/csv-importer/master/data/example.csv"
-      ]
+      "files": []
     },
     "geonames": {
       "datapath": "/data/geonames",
@@ -102,11 +95,24 @@
       "importPostalcodes": true,
       "countryCode": [ "CN", "HK", "MO", "TW" ],
       "importPlace": [
-        "85632695", "85632483", "85632161", "85632403",
-        "1159339541", "85632447", "85632479", "85632457",
-       	"1159339543", "85632577", "85632377", "85632177",
-       	"85632193", "85632463", "85632701", "85632415",
-       	"85632621", "85632595"
+        "85632695",
+       	"85632483",
+       	"85632161",
+       	"85632403",
+        "1159339541",
+        "1159339543",
+        "85632447",
+       	"85632479",
+       	"85632457",
+        "85632577",
+       	"85632377",
+       	"85632177",
+       	"85632193",
+       	"85632463",
+       	"85632701",
+       	"85632415",
+       	"85632621",
+       	"85632595"
       ]
     }
   }
