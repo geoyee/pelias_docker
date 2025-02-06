@@ -58,10 +58,7 @@
       "datapath": "/data/openaddresses",
       "files": [
         "cn/42/wuhan.csv",
-        "tw/cha/regionwide.csv",
         "tw/cyi/regionwide.csv",
-        "tw/hsq/regionwide.csv",
-        "tw/hsz/regionwide.csv",
         "tw/hua/regionwide.csv",
         "tw/ila/datong.csv",
         "tw/ila/dongshan.csv",
@@ -75,19 +72,13 @@
         "tw/ila/yilan.csv",
         "tw/ila/yuanshan.csv",
         "tw/ila/zhuangwei.csv",
-        "tw/kee/regionwide.csv",
         "tw/khh/regionwide.csv",
-        "tw/kin/regionwide.csv",
         "tw/mia/regionwide-en.csv",
         "tw/mia/regionwide-zh.csv",
         "tw/nwt/regionwide.csv",
-        "tw/pen/regionwide.csv",
-        "tw/pif/regionwide.csv",
         "tw/tao/regionwide.csv",
         "tw/tnn/regionwide.csv",
-        "tw/tpe/regionwide.csv",
-        "tw/txg/regionwide.csv",
-        "tw/yun/regionwide.csv"
+        "tw/tpe/regionwide.csv"
       ]
     },
     "whosonfirst": {
