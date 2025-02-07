@@ -24,6 +24,11 @@
       "pip": { "url": "http://pip:4200" },
       "interpolation": { "url": "http://interpolation:4300" },
       "libpostal": { "url": "http://libpostal:4400" }
+    },
+    "targets": {
+      "layers_by_source": {
+        "baidu": [ "custom" ]
+      }
     }
   },
   "imports": {

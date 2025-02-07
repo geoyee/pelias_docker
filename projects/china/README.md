@@ -1,6 +1,6 @@
 # China area
 
-This project is configured to download/prepare/build a complete Pelias installation for China. Data includes Hong Kong, Macao and Taiwan, However, the disputed areas were not included!
+This project is configured to download/prepare/build a complete Pelias installation for China, and data includes Hong Kong, Macao and Taiwan. For now we modified docker's domestic mirror source, if you need to pull from [DockerHub](https://hub.docker.com/u/pelias), modify [docker-compose.yml](./docker-compose.yml) to remove `docker.1ms.run/`.
 
 # Setup
 
@@ -33,6 +33,8 @@ You can now make queries against your new Pelias build:
 
 # TODO
 
-- [ ] Test for correctness and improve documentation.
+- [X] Test for correctness and improve documentation.
 - [X] Refinement of "disputed areas" not covered by China in whosonfirst.
-- [ ] Add the correct custom CSV data ([https://opendata.pku.edu.cn/dataset.xhtml?persistentId=doi:10.18170/DVN/WSXCNM](https://opendata.pku.edu.cn/dataset.xhtml?persistentId=doi:10.18170/DVN/WSXCNM)).
+- [X] Add the correct custom CSV data.
+- [ ] Add real CSV data([https://opendata.pku.edu.cn/dataset.xhtml?persistentId=doi:10.18170/DVN/WSXCNM](https://opendata.pku.edu.cn/dataset.xhtml?persistentId=doi:10.18170/DVN/WSXCNM)).
+- [ ] Add polyline data of China.
