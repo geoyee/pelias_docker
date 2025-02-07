@@ -1,0 +1,5 @@
+id,source,layer,name,housenumber,street,postcode,lat,lon,addendum_json_pelias
+1,baidu,custom,库迪咖啡,300号,天府四街,610095,30.550082,104.068712
+2,baidu,custom,烛光者夜校,118号,吉泰五路,610095,30.550409,104.071937
+3,baidu,custom,水果地带,130号134,萃华路,610095,30.551342,104.072431
+4,baidu,custom,五芳斋,华宇广场1层LG-012-018,上沙河铺街,610095,30.553185,104.078458
